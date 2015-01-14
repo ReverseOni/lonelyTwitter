@@ -1,0 +1,11 @@
+package ca.ualberta.cs.lonelytwitter;
+
+public class Author extends User {
+
+	public Author() {
+		super();
+		name = "anonymous author"
+	}
+	//extends makes it so i inherits objects/attributes from the user class
+
+}

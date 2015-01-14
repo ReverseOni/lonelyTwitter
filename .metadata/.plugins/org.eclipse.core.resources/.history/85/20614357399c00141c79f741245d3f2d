@@ -1,0 +1,16 @@
+package ca.ualberta.cs.lonelytwitter;
+
+public class Author extends User {
+
+	public Author() {
+		super();
+		name = "anonymous author";
+	}
+	//extends makes it so it inherits objects/attributes from the user class
+	//constructors aren't inherited in java
+	public Author(String string){
+		super(string);
+		//allows the making of a user using the superclass constructor of User but cannot use it in this class
+	}
+
+}

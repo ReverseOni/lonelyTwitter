@@ -1,0 +1,13 @@
+package ca.ualberta.cs.lonelytwitter;
+
+public class Reader extends User {
+	//reader User name restrictions
+	public void setName(String name) {
+		if(name.length()>8){
+			throw new RuntimeException("Name too long!");
+		}
+		this.name = name;
+	
+
+}
+}

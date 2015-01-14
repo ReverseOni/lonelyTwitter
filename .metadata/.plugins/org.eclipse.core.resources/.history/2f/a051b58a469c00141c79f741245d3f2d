@@ -1,0 +1,18 @@
+package ca.ualberta.cs.lonelytwitter;
+
+import java.util.ArrayList;
+
+public class Retweets {
+	private String retweet = "text";
+	
+	
+	public Retweets(){
+		ArrayList<String> retweetList = new ArrayList<String>();
+		
+	}
+	public String getRetweet(String retweet){
+		return retweet;
+		
+	}
+	
+}

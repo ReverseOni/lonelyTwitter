@@ -1,0 +1,44 @@
+package ca.ualberta.cs.lonelytwitter;
+
+public class User extends Object{
+	//extends Object is implied, therefore not needed
+	// inside the class is attributes
+	protected String name;
+	//first is initializer second is type modifier
+	//last is the name of the modifier
+	//Switching to private means accessed only by the class it is in
+	//nothing results in the default modifier, access by any class
+	
+	//methods 
+	// these are used anywhere in the program due to public
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		//argument vs. attribute
+		this.name = name;
+		//this. refers to the attribute/method of the object
+		//in this case it refers to the first line
+		
+		//if you change the argument from 'name' to 'x' you can remove the 'this.' as they are
+		// no longer the same variable
+		//this. is implicit, acts a pointer to the current object
+	}
+	//Constructor method; laid out similar to class name
+	public User(String name) {
+		super();//refers to the parent class
+		this.name = name;
+		
+	}
+	//constructor ensures all attributes are set to be able to be used by our objects
+	
+	//private and protected used for encapsulation
+	
+	//constructor that applies the default values if name not given
+	public User() {
+		super();//refers to the parent class
+		this.name = "anon";
+	}
+	
+}

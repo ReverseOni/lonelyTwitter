@@ -1,0 +1,13 @@
+package ca.ualberta.cs.lonelytwitter;
+
+import java.io.IOException;
+
+public class FavouritesInter extends User {
+
+	@Override
+	public void setName(String name) throws IOException {
+		// TODO Auto-generated method stub
+
+	}
+
+}
