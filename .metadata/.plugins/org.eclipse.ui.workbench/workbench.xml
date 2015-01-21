@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="32" version="2.0">
+<workbench progressCount="31" version="2.0">
 <workbenchAdvisor/>
-<window height="765" width="1020" x="486" y="210">
+<window height="762" maximized="true" width="1016" x="0" y="31">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -10,15 +10,20 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="156" y="26"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="adt.actionSet.avdManager" itemType="typeToolBarContribution" x="62" y="26"/>
+<coolItem id="adt.actionSet.lint" itemType="typeToolBarContribution" x="44" y="26"/>
+<coolItem id="adt.actionSet.wizards" itemType="typeToolBarContribution" x="36" y="26"/>
 <coolItem id="com.soyatec.uml.UMLElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="112" y="26"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="70" y="26"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="96" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="140" y="26"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -27,15 +32,66 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" partName="User.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java" title="User.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="37" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LonelyTwitterActivity.java" partName="LonelyTwitterActivity.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" title="LonelyTwitterActivity.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="728" selectionTopPixel="523"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Author.java" partName="Author.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java" title="Author.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="474" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Reader.java" partName="Reader.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java" title="Reader.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="267" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserLike.java" partName="UserLike.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java" title="UserLike.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="149" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LonelyTweetModel.java" partName="LonelyTweetModel.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java" title="LonelyTweetModel.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retweets.java" partName="Retweets.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java" title="Retweets.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="127" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Favourites.java" partName="Favourites.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java" title="Favourites.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="93" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavouritesInterface.java" partName="FavouritesInterface.java" path="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/LonelyTwitter/src/FavouritesInterface.java" title="FavouritesInterface.java" tooltip="LonelyTwitter/src/FavouritesInterface.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LonelyTwitter/src/FavouritesInterface.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="105" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings"/>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="951" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -97,7 +153,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -122,6 +178,10 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -231,12 +291,183 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/FavouritesInter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/LonelyTwitter/src/FavouritesInterface.java"/>
+</editors>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="281" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="130" y="0"/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Author.java" index="2">
+<position info="not_deleted" x="474" y="0"/>
+</item>
+<item historyLabel="Reader.java" index="3">
+<position info="not_deleted" x="267" y="0"/>
+</item>
+<item historyLabel="User.java" index="0">
+<position info="not_deleted" x="37" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position/>
+</item>
+<item historyLabel="LonelyTweetModel.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="245" y="0"/>
+</item>
+<item historyLabel="UserLike.java" index="4">
+<position info="not_deleted" x="149" y="0"/>
+</item>
+<item historyLabel="Reader.java" index="3">
+<position info="not_deleted" x="267" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="LonelyTweetModel.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="179" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="LonelyTwitterActivity.java" index="1">
+<position info="not_deleted" x="728" y="0"/>
+</item>
+<item historyLabel="Author.java" index="2">
+<position info="not_deleted" x="474" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FavouritesInter.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FavouritesInter.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FavouritesInter.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FavouritesInter.java" index="8">
+<position info="not_deleted" x="111" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="93" y="0"/>
+</item>
+<item historyLabel="FavouritesInter.java" index="8">
+<position info="not_deleted" x="111" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="93" y="0"/>
+</item>
+<item historyLabel="FavouritesInterface.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Favourites.java" index="7">
+<position info="not_deleted" x="93" y="0"/>
+</item>
+<item active="true" historyLabel="Retweets.java" index="6">
+<position info="not_deleted" x="127" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="bottom"/>
+<trimItem IMemento.internal.id="right"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@4798bcc3"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -248,5 +479,36 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FavouritesInterface.java" tooltip="LonelyTwitter/src/FavouritesInterface.java">
+<persistable path="/LonelyTwitter/src/FavouritesInterface.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Favourites.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Favourites.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Retweets.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Retweets.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LonelyTweetModel.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTweetModel.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserLike.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/UserLike.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Reader.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Reader.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Author.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/Author.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LonelyTwitterActivity.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="User.java" tooltip="LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java">
+<persistable path="/LonelyTwitter/src/ca/ualberta/cs/lonelytwitter/User.java"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/AndroidManifest.xml">
+<persistable uri="file:/cshome/mamesser/Desktop/lonelytwitter/lonelyTwitter/AndroidManifest.xml"/>
+</file>
+</mruList>
 </workbench>
